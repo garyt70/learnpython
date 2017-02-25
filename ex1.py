@@ -18,5 +18,4 @@ carsDriven = drivers
 carpoolCapacity = carsDriven * space_in_a_car
 averagePassangersPerCar = passengers/carsDriven
 
-print ("There are", cars, "cars available.")
-print ("There are only", drivers,"drivers available.")
+print ("There are %d cars available, and %d drivers" % (cars, drivers))
