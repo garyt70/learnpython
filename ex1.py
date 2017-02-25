@@ -19,3 +19,6 @@ carpoolCapacity = carsDriven * space_in_a_car
 averagePassangersPerCar = passengers/carsDriven
 
 print ("There are %d cars available, and %d drivers" % (cars, drivers))
+
+formatter = "%r %r %r %r"
+print ("Test formatting varible formatter", formatter % (1,2,3,4))
