@@ -26,3 +26,10 @@ print ("Test formatting varible formatter", formatter % (1,2,3,4))
 #test text input
 age = input("How old are you?")
 print ("your age is %r" % age)
+
+#test opening file in different modes
+with open("test_doc.txt","r+") as file1:
+    print ("====  \n\n\n\n")
+    print ( file1.read() )
+
+print ("Files is closed, correct?", file1.closed)
